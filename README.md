@@ -1,5 +1,6 @@
 # leap2json
 Turn Leap tracking data into json format.
+It polls the leapmotion controller for data and then sends it in json format to the target IP and port using UDP.
 
 The project is still a mess as I try to figure out how to transform the rotation matrix to my liking. \
 Right now you will get the data as is but maybe it is still useful.
